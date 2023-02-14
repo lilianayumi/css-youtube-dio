@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+body {
+    background-color: #F9F9F9;
+}
+img {
+    object-position: center;
+    object-fit: cover;
+}
+h1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: left;
+    height: 50px;
+}
+h2 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+}
+p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #515151;
+
+}
+#menu {
+    height: 56px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+.left, .right{
+    display: flex;
+    align-items: center;
+}
+.center {
+    display: flex;
+    align-items: center;
+}
+.menu-icon, .video-icon, .bell-icon {
+    width: 24px;
+    padding: 8px;
+}
+.youtube-icon {
+    width: 90px;
+    height: 20px;
+    padding: 14px 18px;
+}
+.search-icon {
+    width: 404px;
+    height: 40px;
+}
+.avatar-icon {
+    width: 32px;
+    padding: 1px 6px;
+}
+main {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#watching-video {
+    width: 647px;
+    height: auto;
+    margin: 0 0 0 24px;
+    padding: 24px 24px 0 0;
+}
+.video-player {
+    width: 647px;
+    height: 364px;
+}
+.video-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.channel-infos, .subscribe-button, .like, .dislike, .share, .download {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex: auto;
+}
+.channel-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 2px;
+}
+.subscribe-button {
+    background: #CC0000;
+    color: #FFFFFF;
+    height: 28px;
+    width: 90px;
+    border-width: 0;
+    border-radius: 2px;
+}
+.description {
+    margin: 12px 12px 0 0;
+}
+#sidebar {
+    width: 402px;
+    height: auto;
+    padding: 24px 24px 0 0;
+}
+.thumbnails {
+    margin-bottom: 8px;
+    height: 94px;
+    display: flex;
+    width: 100%;
+}
+.thumbnail-image {
+    width: 168px;
+    height: 94px;
+    margin-right: 8px;
+}
+.thumbnail-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
