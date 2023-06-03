@@ -1,2 +1,2 @@
-# css-dio-desafio-02
+# css-youtube-dio
 Formação CSS Web Developer: Clonando a Página do Youtube com CSS
